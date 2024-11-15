@@ -31,13 +31,35 @@ section#telefone {
 
 }
 
-.frame {
-    position: absolute;
-    background-color: blue;
-    height: 475px;
-    width: 267px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+iframe.frame {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 266px;
+    height: 470px;
+    
     
 }
+
+section#redes-sociais img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 3px 3px 5px;
+    box-sizing: border-box;
+
+}
+
+section#redes-sociais {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+section#redes-sociais img:hover {
+    border: 0.5px solid black;
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 3px 6px;
+    transition: transform .5s, border 1s;
+}
+
